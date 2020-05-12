@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.ThongTinActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_gravity="center"
+        android:id="@+id/toolbarthongtin"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#fafafa"
+        app:title="Thông tin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#fafafa"
+            android:gravity="center"
+            android:text="Thông tin về chúng tôi"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/boder"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtshop"
+                android:gravity="center"
+                android:layout_margin="30dp"
+                android:text="Shop Huế Hà"
+                android:textColor="#404040"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtdiachi"
+                android:gravity="center"
+                android:layout_margin="30dp"
+                android:text="Địa Chỉ: Bằng Hữu-Chi Lăng-Lạng Sơn"
+                android:textColor="#404040"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

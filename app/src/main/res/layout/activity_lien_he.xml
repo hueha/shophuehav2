@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.LienHeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#fafafa"
+        app:title="Liên hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#0E0000"
+            android:gravity="center"
+            android:text="Liên hệ với chúng tôi"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Chủ shop: Hà Thị Huế"
+                android:textColor="#404040"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:text="Email: hathihue238@gmail.com"
+                android:textColor="#404040"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:text="Số điện thoai: 012345678"
+                android:textColor="#404040"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
